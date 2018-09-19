@@ -1,5 +1,6 @@
 # Extract-inner-image
 This project can extract inner image of something like ring, but not only ring. Besides, you can counting according to the result image of inner image.
+Configuration environment : OpenCV3.1.0 + VS2013
 
 # Simple-Example
 In this example, we show some simple images of some rings which are Scattered. In the algorithm, we find the contours, and then use the AND, OR relationship to extract the inner ring image. 
