@@ -17,6 +17,4 @@ In this example, we show some complex images of some rings which are Intensive. 
 
 * **More Details**
 
-More algorithm details please visit my blog:https://www.cnblogs.com/qinguoyi/p/8325010.html
-
-Thank you!
+More algorithm details please visit [my blog](https://www.cnblogs.com/qinguoyi/p/8325010.html)
