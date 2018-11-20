@@ -6,7 +6,7 @@ Configuration environment : OpenCV3.1.0 + VS2013
 
 In this example, we show some simple images of some rings which are Scattered. In the algorithm, we find the contours, and then use the AND, OR relationship to extract the inner ring image. 
 
-<div align=center><img width="240" height="170" src="https://github.com/qinguoyi/Extract-inner-image/blob/master/Complex-Example/src.png" img width="240" height="170" src="https://github.com/qinguoyi/Extract-inner-image/blob/master/Simple-Example/dst.png"/></div>
+<div align=center><img width="240" height="170" src="https://github.com/qinguoyi/Extract-inner-image/blob/master/Complex-Example/src.png"/></div> ![](https://github.com/qinguoyi/Extract-inner-image/blob/master/Simple-Example/dst.png)
 
 * **Complex-Example**
 
