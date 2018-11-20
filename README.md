@@ -8,6 +8,7 @@ In this example, we show some simple images of some rings which are Scattered. I
 
 <div align=center><img width="240" height="170" src="https://github.com/qinguoyi/Extract-inner-image/blob/master/Complex-Example/src.png"/></div> 
 <div align=center><img width="240" height="170" src="https://github.com/qinguoyi/Extract-inner-image/blob/master/Simple-Example/dst.png"/></div>
+
 * **Complex-Example**
 
 In this example, we show some complex images of some rings which are Intensive. If we still use a simple method to process the image, some gap images will be extracted as inner loops.Then we improved the method,  we use the distance transform and watershed algorithm to elimate this error.
@@ -15,6 +16,6 @@ In this example, we show some complex images of some rings which are Intensive. 
 <div align=center><img width="240" height="170" src="https://github.com/qinguoyi/Extract-inner-image/blob/master/Complex-Example/dst.png"/></div>
 
 
-* **More Details**
-
+More Details
+=========
 More algorithm details please visit [my blog](https://www.cnblogs.com/qinguoyi/p/8325010.html)
