@@ -126,7 +126,7 @@ int main()
 		src_bit.copyTo(src_bit1);
 		if (countNonZero(src_bit) > 10)
 		{
-			Mat src_temp = tiqu_b(src_bit, src_bit1);
+			Mat src_temp = tiqu(src_bit, src_bit1);
 			src_new = src_new & src_temp;
 		}
 	}
@@ -134,7 +134,7 @@ int main()
 	src_and.copyTo(src_final);
 	if (countNonZero(src_and) > 10)
 	{
-		Mat src_temp = tiqu_b(src_and, src_final);
+		Mat src_temp = tiqu(src_and, src_final);
 		src_new = src_new & src_temp;
 	}
 	 
@@ -174,8 +174,8 @@ Mat tiqu(Mat src_bit, Mat src_bit1){
 			root_points.push_back(cv::Point(contours_fenshui[i][j].x, contours_fenshui[i][j].y));
 			mask.at<uchar>(contours_fenshui[i][j].y, contours_fenshui[i][j].x) = 255;
 		}
-
-		cv::Point* ppt[1] = {(cv::Point*) malloc(root_points.size()*sizeof(cv::Point))};
+		cv::Point *temp = (cv::Point*) malloc(root_points.size()*sizeof(cv::Point));
+		cv::Point* ppt[1] = {temp};
 		
 		for (size_t index = 0; index < root_points.size(); index++)
 			ppt[0][index] = root_points[index];
@@ -186,6 +186,7 @@ Mat tiqu(Mat src_bit, Mat src_bit1){
 		Mat mask2 = 255 - mask;	
 		cv::Mat src_bit2 = mask & src_bit1;
 		src_temp = src_bit2| mask2;
+		free(temp);
 	}
 	return  src_temp;
 }
