@@ -18,4 +18,4 @@ In this example, we show some complex images of some rings which are Intensive. 
 
 More Details
 =========
-More algorithm details please visit my blog[![HUAWEI](https://img.shields.io/badge/link-myBlog-red.svg)](https://www.cnblogs.com/qinguoyi/p/8325010.html)
+More algorithm details please visit[![myBlog](https://img.shields.io/badge/link-myBlog-red.svg)](https://www.cnblogs.com/qinguoyi/p/8325010.html)
